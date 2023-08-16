@@ -1,0 +1,61 @@
+/* creates borders on whole page 
+* {
+    border: 2px solid red;
+} */
+
+.main-body { text-align: center;
+}
+
+.img-main {
+    width: 500px;
+    height: auto;
+    margin-top: 14px;
+}
+
+.recipe-list {
+    font-size: 24px;
+    line-height: 2;
+    list-style-position: inside;
+    color: black;
+}
+
+.recipe-list li {
+    margin-left: 18px;
+    display: inline;
+   
+}
+
+.recipe-list li:hover {
+    background-color: rgb(22, 187, 22);
+}
+
+.recipe-name {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin-bottom: -18px;
+}
+
+nav {
+    background-color: #333;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px; /* Add space between menu items */
+  }
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link text color */
+    padding: 10px; /* Add padding around the text */
+  }
+
+  nav a:hover {
+    color: lightgray;
+  }
